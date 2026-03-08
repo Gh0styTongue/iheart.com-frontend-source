@@ -1,0 +1,70 @@
+import createReducer from 'state/createReducer';
+import { ARTICLE_LOADED } from 'state/News/constants';
+import {
+  articleLoaded,
+  initialState,
+  podcastArticlesLoaded,
+  receiveAllStationTypes,
+  receivedFollowed,
+  receivedPodcast,
+  receivedPodcastCategories,
+  receivedPodcastCategory,
+  receivedPodcastNetworks,
+  removePodcastFromHistory,
+  reorderPodcastEpisodes,
+  saveStation,
+  setHighlightsMetadata,
+  setIsFollowed,
+  setLastPlayedDate,
+  setPodcastCategoryIds,
+  setPodcastEpisodePlayProgress,
+  setPodcastEpisodes,
+  setPodcastHosts,
+  setPodcastProfile,
+} from './reducers';
+import {
+  PODCAST_ARTICLES_LOADED,
+  RECEIVED_FOLLOWED,
+  RECEIVED_NETWORKS,
+  RECEIVED_PODCAST_CATEGORIES,
+  RECEIVED_PODCAST_CATEGORY,
+  RECEIVED_PODCASTS,
+  REORDER_PODCAST_EPISODES,
+  SET_HIGHLIGHTS_METADATA,
+  SET_IS_FOLLOWED,
+  SET_PODCAST_CATEGORY_IDS,
+  SET_PODCAST_EPISODE_PLAY_PROGRESS,
+  SET_PODCAST_EPISODES,
+  SET_PODCAST_HOSTS,
+  SET_PODCAST_PROFILE,
+} from './constants';
+import {
+  RECEIVE_STATIONS as RECEIVE_ALL_STATION_TYPES,
+  REMOVE_STATION,
+  SAVE_STATION,
+  SET_LAST_PLAYED_DATE,
+} from 'state/Stations/constants';
+
+const reducer = createReducer(initialState, {
+  [ARTICLE_LOADED]: articleLoaded,
+  [PODCAST_ARTICLES_LOADED]: podcastArticlesLoaded,
+  [RECEIVE_ALL_STATION_TYPES]: receiveAllStationTypes,
+  [RECEIVED_FOLLOWED]: receivedFollowed,
+  [RECEIVED_NETWORKS]: receivedPodcastNetworks,
+  [RECEIVED_PODCAST_CATEGORIES]: receivedPodcastCategories,
+  [RECEIVED_PODCAST_CATEGORY]: receivedPodcastCategory,
+  [RECEIVED_PODCASTS]: receivedPodcast,
+  [REMOVE_STATION]: removePodcastFromHistory,
+  [REORDER_PODCAST_EPISODES]: reorderPodcastEpisodes,
+  [SAVE_STATION]: saveStation,
+  [SET_HIGHLIGHTS_METADATA]: setHighlightsMetadata,
+  [SET_IS_FOLLOWED]: setIsFollowed,
+  [SET_LAST_PLAYED_DATE]: setLastPlayedDate,
+  [SET_PODCAST_CATEGORY_IDS]: setPodcastCategoryIds,
+  [SET_PODCAST_EPISODE_PLAY_PROGRESS]: setPodcastEpisodePlayProgress,
+  [SET_PODCAST_EPISODES]: setPodcastEpisodes,
+  [SET_PODCAST_HOSTS]: setPodcastHosts,
+  [SET_PODCAST_PROFILE]: setPodcastProfile,
+});
+
+export default reducer;

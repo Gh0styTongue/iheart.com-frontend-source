@@ -1,0 +1,6 @@
+export const RECEIVE_GENRES = 'genres/receive';
+export const RECEIVE_GENRE_SELECTED = 'genres/RECEIVE_GENRE_SELECTED';
+
+export const UPDATE_GENRE_PREFERENCES = 'genres/UPDATE_GENRE_PREFERENCES';
+
+export const SELECT_GENRE_REQUEST = 'genres/SELECT_GENRE_REQUEST';

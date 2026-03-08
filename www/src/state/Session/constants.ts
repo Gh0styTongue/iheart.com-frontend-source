@@ -1,0 +1,14 @@
+export const LOGOUT = 'iHR/Session/LOGOUT';
+export const REJECT_SESSION = 'iHR/Session/REJECT_SESSION';
+export const REQUEST_SESSION = 'iHR/Session/REQUEST_SESSION';
+export const RECEIVE_SESSION = 'iHR/Session/RECEIVE_SESSION';
+export const RECEIVE_ANONYMOUS_SESSION =
+  'iHR/Session/RECEIVE_ANONYMOUS_SESSION';
+export const SOCIAL_AUTH = 'iHR/Session/SOCIAL_AUTH';
+export const SHORT_LIVED_TOKEN_EXPIRED =
+  'iHR/Session/SHORT_LIVED_TOKEN_EXPIRED';
+export const CLEAR_SESSION_ERROR = 'iHR/Session/CLEAR_SESSION_ERROR';
+export const SESSION_EXPIRED = 'iHR/Session/SESSION_EXPIRED';
+export const SESSION_REFRESHED = 'iHR/Session/SESSION_REFRESHED';
+export const SET_DEVICE_ID = 'iHR/Session/SET_DEVICE_ID';
+export const INVALID_USER_OR_PASSWORD_CODES = [101, 106];

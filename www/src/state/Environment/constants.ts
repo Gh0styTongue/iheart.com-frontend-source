@@ -1,0 +1,1 @@
+export const SET_ENVIRONMENT_VARS = 'Environment/SET_ENVIRONMENT_VARS';

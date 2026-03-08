@@ -1,0 +1,3 @@
+export const SET_SOCIAL_OPTS = 'SiteData/SET_SOCIAL_OPTS';
+export const RESET_SOCIAL_OPTS = 'SiteData/RESET_SOCIAL_OPTS';
+export const FETCH_RECURLY_SKUS = 'SiteData/FETCH_RECURLY_SKUS';

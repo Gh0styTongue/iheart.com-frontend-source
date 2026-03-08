@@ -1,0 +1,23 @@
+export const SET_COUNTRY = 'iHR/LiveDirectory/SET_COUNTRY';
+export const SET_MARKET = 'iHR/LiveDirectory/SET_MARKET';
+export const SET_GENRE = 'iHR/LiveDirectory/SET_GENRE';
+export const SET_COUNTRY_OPTIONS = 'iHR/LiveDirectory/SET_COUNTRY_OPTIONS';
+export const SET_MARKET_AND_GENRE_OPTIONS =
+  'iHR/LiveDirectory/SET_MARKET_AND_GENRE_OPTIONS';
+export const REQUEST_STATIONS = 'iHR/LiveDirectory/REQUEST_STATIONS';
+export const RECEIVE_STATIONS = 'iHR/LiveDirectory/RECEIVE_STATIONS';
+export const RECEIVE_ONE_STATION = 'iHR/LiveDirectory/RECEIVE_ONE_STATION';
+export const REJECT_STATIONS = 'iHR/LiveDirectory/REJECT_STATIONS';
+export const SET_RE_PROFILE_DATA = 'iHR/LiveDirectory/SET_RE_PROFILE_DATA';
+export const SET_RECENTLY_PLAYED = 'iHR/LiveDirectory/SET_RECENTLY_PLAYED';
+export const SET_IS_FAVORITE = 'iHR/LiveDirectory/SET_IS_FAVORITE';
+export const RECEIVE_LIVE_META_DATA = 'PLAYBACK:RECEIVE_LIVE_META_DATA';
+
+export const REQUEST_SIMILAR_LIVE_STATIONS =
+  'iHR/LiveDirectory/REQUEST_SIMILAR_LIVE_STATIONS';
+export const RECEIVE_SIMILAR_LIVE_STATIONS =
+  'iHR/LiveDirectory/RECEIVE_SIMILAR_LIVE_STATIONS';
+export const SIMILAR_LIVE_STATIONS_ERROR =
+  'iHR/LiveDirectory/SIMILAR_LIVE_STATIONS_ERROR';
+export const SET_HIGHLIGHTS_METADATA = 'iHR/LiveDirectory/SET_CLIP_METADATA';
+export const SET_VIDEO_MAP_STATUS = 'iHR/LiveDirectory/SET_VIDEO_MAP_STATUS';
